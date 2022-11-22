@@ -1,0 +1,33 @@
+.footer{
+    clip-path: polygon(100% 3%, 0% 100%, 100% 100%);
+}
+
+@media screen and (max-width:460px){
+.footer{
+    height:5rem;
+}
+   
+        .barcode{
+            width:2.75rem;
+            height:2.75rem;
+            margin-left: 1rem;
+
+        }
+
+        .pion{
+
+            width:2.25rem;
+            height:2.25rem;
+            margin-left: 1rem;
+
+        }
+
+        .copy{
+            
+            margin-left: 1rem;
+            font-size: 1rem;
+
+        }
+    
+    
+}
