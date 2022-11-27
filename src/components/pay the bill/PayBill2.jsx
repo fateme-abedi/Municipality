@@ -1,17 +1,18 @@
 import React from 'react'
 import { GrNotes } from 'react-icons/gr'
 import Footer from '../footer/Footer'
+import payment from '../../images/projext/Group 3028.png'
 function PayBill2(props) {
   return (
     <div className="p-5 pb-0 pr-0 text-white ">
       <div className="flex items-center mr-3 text-2xl text-white ">
         <div>
-          <GrNotes size="3rem" color="white" />
+          <img src={payment} alt="payment" />
         </div>
         <h1 className="mr-3">استعلام و پرداخت قبوض</h1>
       </div>
 
-      <div className="w-[50%] mt-[8.5rem] text-white flex flex-col justify-center items-center payBill  m-auto  p-30 pb-0 mb-0">
+      <div className="w-[50%] mt-[6.25rem] text-white flex flex-col justify-center items-center payBill  m-auto  p-30 pb-0 mb-0">
         <div>
           <h1 className=" text-[17px] font-medium   text-white ">نوع قبض</h1>
 

@@ -2,6 +2,7 @@ import React from 'react'
 import { BsFillSdCardFill } from 'react-icons/bs'
 import Footer from '../footer/Footer'
 import InternetButton from './InternetButton'
+import internetImg from '../../images/projext/Group 3032.png'
 
 function BuyInternet2(props) {
   const internetPacks = [
@@ -42,12 +43,12 @@ function BuyInternet2(props) {
     <div className="p-5 pb-0 pr-0 text-white ">
       <div className="flex items-center mr-3 text-2xl text-white ">
         <div>
-          <BsFillSdCardFill size="3rem" color="white" />
+          <img src={internetImg} alt="internt" />
         </div>
         <h1 className="mr-3">خرید بسته اینترنتی</h1>
       </div>
 
-      <div className="w-[50%] mt-[8.5rem] text-white flex flex-col justify-center items-center payBill  m-auto  p-30 pb-0 mb-0">
+      <div className="w-[50%] mt-[6.5rem] text-white flex flex-col justify-center items-center payBill  m-auto  p-30 pb-0 mb-0">
         <div>
           <div>
             <h1 className=" text-[20px] font-medium   text-white ">

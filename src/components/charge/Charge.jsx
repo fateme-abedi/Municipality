@@ -2,6 +2,7 @@ import React from 'react'
 import ChargeButton from './ChargeButton'
 import { BsFillSdCardFill } from 'react-icons/bs'
 import Footer from '../footer/Footer'
+import charge from '../../images/projext/Group 3030.png'
 
 function Charge(props) {
   const prices = [
@@ -16,12 +17,12 @@ function Charge(props) {
     <div className="p-5 pb-0 pr-0 text-white">
       <div className="flex items-center mr-3 text-2xl text-white ">
         <div>
-          <BsFillSdCardFill size="3rem" color="white" />
+          <img src={charge} alt="charge" />
         </div>
         <h1 className="mr-3">خرید شارژ</h1>
       </div>
 
-      <div className="w-[50%] mt-[10.25rem] text-white flex flex-col justify-center items-center payBill  m-auto  p-30 pb-0 mb-0 charge">
+      <div className="w-[50%] mt-[8.25rem] text-white flex flex-col justify-center items-center payBill  m-auto  p-30 pb-0 mb-0 charge">
         <div>
           <h1 className=" text-[20px] font-medium   text-white ">
             شماره تلفن همراه

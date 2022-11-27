@@ -1,17 +1,18 @@
 import React from 'react'
 import { BsFillSdCardFill } from 'react-icons/bs'
 import Footer from '../footer/Footer'
+import internetImg from '../../images/projext/Group 3032.png'
 
 function BuyInternet3(props) {
   return (
     <div className="p-5 pb-0 pr-0 text-white">
       <div className="flex items-center mr-3 text-2xl text-white ">
         <div>
-          <BsFillSdCardFill size="3rem" color="white" />
+          <img src={internetImg} alt="internt" />
         </div>
         <h1 className="mr-3">خرید بسته اینترنتی</h1>
       </div>
-      <div className="w-[50%] mt-[8.75rem] text-white flex flex-col justify-center items-center payBill  m-auto  p-30 pb-0 mb-0">
+      <div className="w-[50%] mt-[6.75rem] text-white flex flex-col justify-center items-center payBill  m-auto  p-30 pb-0 mb-0">
         <div className="facture">
           <h1 className=" text-[22px] text-white ">
             فاکتور خرید بسته اینترنتی

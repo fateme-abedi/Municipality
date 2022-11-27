@@ -1,15 +1,9 @@
 import React from 'react'
-
+import paymentImg from '../../images/projext/Group 3025.png'
 function Text(props) {
   return (
     <>
-      <h1 className="text-[12rem]  text ">
-        <span className="text-black text-[10rem]">
-          {' '}
-          خدمات <br />
-        </span>
-        پرداخت
-      </h1>
+      <img src={paymentImg} alt="payment" />
     </>
   )
 }
